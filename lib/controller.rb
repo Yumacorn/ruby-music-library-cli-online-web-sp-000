@@ -16,9 +16,8 @@ class MusicLibraryController
 
       request = gets.strip
       if request == 'exit'
-      elsif request == 'list_songs'
+      elsif request == 'list songs'
         list_songs
-        # call
       else
         call
       end
