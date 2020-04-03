@@ -18,6 +18,16 @@ class MusicLibraryController
       if request == 'exit'
       elsif request == 'list songs'
         list_songs
+      elsif request == 'list artists'
+        list_artists
+      elsif request == 'list genres'
+        list_genres
+      elsif request == 'list artist'
+        list_songs_by_artist
+      elsif request == 'list genre'
+        list_songs_by_genre
+      elsif request == 'play song'
+        play_song
       else
         call
       end
